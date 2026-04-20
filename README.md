@@ -1,15 +1,15 @@
-# 🗄️ University Database – SQL Server
+# University Database – SQL Server
 
 Projekt przedstawia kompletną relacyjną bazę danych stworzoną w **Microsoft SQL Server**, odwzorowującą strukturę uczelni wyższej.
 Zawiera on pełną strukturę relacji między tabelami oraz przykładowe zapytania SQL.
 
 ---
 
-## 📂 Zawartość repozytorium
+## Zawartość repozytorium
 
 W repozytorium znajdują się 3 główne pliki:
 
-### 1️⃣ `SQL Server [Database].txt`
+### `SQL Server [Database].txt`
 Plik odpowiedzialny za:
 - tworzenie bazy danych
 - definicję tabel
@@ -21,7 +21,7 @@ Plik odpowiedzialny za:
 
 ---
 
-### 2️⃣ `SQL Server [DATA].txt`
+### `SQL Server [DATA].txt`
 Plik zawierający:
 - instrukcje `INSERT INTO`
 - przykładowe dane testowe
@@ -30,7 +30,7 @@ Plik zawierający:
 
 ---
 
-### 3️⃣ `SQL Server [QUERIES].txt`
+### `SQL Server [QUERIES].txt`
 Plik z przykładowymi zapytaniami SQL, m.in.:
 
 - SELECT z JOIN
@@ -42,7 +42,7 @@ Plik z przykładowymi zapytaniami SQL, m.in.:
 
 ---
 
-## 🏗️ Struktura bazy danych
+## Struktura bazy danych
 
 Baza danych została zaprojektowana w sposób relacyjny i zawiera m.in. następujące tabele:
 
@@ -73,35 +73,21 @@ Relacje obejmują m.in.:
 
 ---
 
-## 📸 Schemat bazy danych
+## Schemat bazy danych
 
 <div align="center">
 <img width="900"  alt="obraz" src="https://github.com/user-attachments/assets/6ccd0980-03c7-4e8f-b07a-6eb6a98fd9c0" />
 </div>
 
 
----
-
-## 🎯 Cel projektu
-
-Projekt został stworzony w celu:
-
-- Nauki projektowania relacyjnych baz danych
-- Pracy z Microsoft SQL Server
-- Tworzenia zaawansowanych relacji między tabelami
-- Ćwiczenia zapytań SQL (JOIN, GROUP BY, agregacje)
-- Zrozumienia zasad normalizacji
-
----
-
-## 🛠️ Technologie
+## Technologie
 
 - Microsoft SQL Server
 - Relacyjny model danych
 - Diagram bazy danych (ERD)
 
 
-## 👨‍💻 Autor
+## Autor
 
 Projekt edukacyjny wykonany w celu nauki projektowania i implementacji baz danych w SQL Server.
 
