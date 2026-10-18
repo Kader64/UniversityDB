@@ -1,50 +1,20 @@
 # University Database – SQL Server
 
-Projekt przedstawia kompletną relacyjną bazę danych stworzoną w **Microsoft SQL Server**, odwzorowującą strukturę uczelni wyższej.
-Zawiera on pełną strukturę relacji między tabelami oraz przykładowe zapytania SQL.
+A complete relational database built in **Microsoft SQL Server** that models the structure of a university. The project includes the full schema with relationships between tables, sample data, and a set of example SQL queries.
 
----
+<img width="900"  alt="obraz" src="https://github.com/user-attachments/assets/6ccd0980-03c7-4e8f-b07a-6eb6a98fd9c0" />
 
-## Zawartość repozytorium
+## Repository Contents
 
-W repozytorium znajdują się 3 główne pliki:
+| File | Description |
+| --- | --- |
+| `SQL Server [Database].txt` | Database schema: database creation, tables, primary keys, foreign keys, relationships, data types and constraints |
+| `SQL Server [DATA].txt` | Sample data: `INSERT INTO` statements populating the tables with realistic university records |
+| `SQL Server [QUERIES].txt` | Example queries demonstrating how to work with the data |
 
-### `SQL Server [Database].txt`
-Plik odpowiedzialny za:
-- tworzenie bazy danych
-- definicję tabel
-- klucze główne (PRIMARY KEY)
-- klucze obce (FOREIGN KEY)
-- relacje między tabelami
-- typy danych
-- ograniczenia (constraints)
+## Database Structure
 
----
-
-### `SQL Server [DATA].txt`
-Plik zawierający:
-- instrukcje `INSERT INTO`
-- przykładowe dane testowe
-- wypełnienie tabel rekordami
-- realistyczne dane uczelni
-
----
-
-### `SQL Server [QUERIES].txt`
-Plik z przykładowymi zapytaniami SQL, m.in.:
-
-- SELECT z JOIN
-- Zapytania agregujące (COUNT, AVG, SUM)
-- Podzapytania
-- Filtrowanie danych (WHERE)
-- Grupowanie (GROUP BY)
-- Sortowanie (ORDER BY)
-
----
-
-## Struktura bazy danych
-
-Baza danych została zaprojektowana w sposób relacyjny i zawiera m.in. następujące tabele:
+The database is designed as a relational model and contains the following tables:
 
 - `Students`
 - `Professors`
@@ -62,33 +32,34 @@ Baza danych została zaprojektowana w sposób relacyjny i zawiera m.in. następu
 - `Academy`
 - `Deanery`
 
-Relacje obejmują m.in.:
+### Key Relationships
 
-- Student → Grupa → Wydział  
-- Student → Oceny → Wykłady  
-- Profesor → Wykłady  
-- Wydział → Kierunki  
-- Sala → Wyposażenie  
-- Kandydat → Rekrutacja  
+- **Student → Group → Department**
+- **Student → Grades → Lectures**
+- **Professor → Lectures**
+- **Department → Fields of Study**
+- **Room → Equipment**
+- **Candidate → Recruitment**
 
----
+## Example Queries
 
-## Schemat bazy danych
+The queries file demonstrates:
 
-<div align="center">
-<img width="900"  alt="obraz" src="https://github.com/user-attachments/assets/6ccd0980-03c7-4e8f-b07a-6eb6a98fd9c0" />
-</div>
+- `SELECT` with `JOIN`
+- Aggregate functions (`COUNT`, `AVG`, `SUM`)
+- Subqueries
+- Filtering with `WHERE`
+- Grouping with `GROUP BY`
+- Sorting with `ORDER BY`
 
+## Technologies
 
-## Technologie
+- Microsoft SQL Server (T-SQL)
+- Relational data model
+- Entity Relationship Diagram (ERD)
 
-- Microsoft SQL Server
-- Relacyjny model danych
-- Diagram bazy danych (ERD)
+## Author
 
+**Wojciech Lichtoń** – [@Kader64](https://github.com/Kader64)
 
-## Autor
-
-Projekt edukacyjny wykonany w celu nauki projektowania i implementacji baz danych w SQL Server.
-
----
+An educational project created to practice database design and implementation in SQL Server.
